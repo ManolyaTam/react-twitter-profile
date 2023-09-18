@@ -36,11 +36,6 @@ const Sidebar = () => {
           </NavIcon>
         </li>
         <li>
-          <NavIcon label='Bookmarks'>
-            <FontAwesomeIcon icon={faBookmark} style={{ fontSize: 20 }} />
-          </NavIcon>
-        </li>
-        <li>
           <NavIcon label='Communities'>
             <FontAwesomeIcon icon={faUserGroup} style={{ fontSize: 20 }} />
           </NavIcon>
