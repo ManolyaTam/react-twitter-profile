@@ -7,6 +7,7 @@
 .navbar > .x-icon {
   padding: 10px;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .navbar > .x-icon:hover {
