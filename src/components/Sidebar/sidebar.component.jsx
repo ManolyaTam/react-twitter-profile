@@ -2,6 +2,7 @@ import './sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBell, faEnvelope, faHouse, faMagnifyingGlass, faRectangleList, faUserGroup, faUser, faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import PrimaryBtn from '../PrimaryBtn/primary-btn.component';
 import NavIcon from '../NavIcon/nav-icon.component';
 
 const Sidebar = () => {
@@ -51,7 +52,7 @@ const Sidebar = () => {
         </li>
       </ul>
 
-      <button>Post</button>
+      <PrimaryBtn />
     </div>
   );
 };
