@@ -1,7 +1,7 @@
 import './sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faBell, faEnvelope, faHouse, faMagnifyingGlass, faRectangleList, faUserGroup, faUser, faEllipsis, faBookmark } from '@fortawesome/free-solid-svg-icons';
+import { faBell, faEnvelope, faHouse, faMagnifyingGlass, faRectangleList, faUserGroup, faUser, faEllipsis } from '@fortawesome/free-solid-svg-icons';
 import PrimaryBtn from '../PrimaryBtn/primary-btn.component';
 import NavIcon from '../NavIcon/nav-icon.component';
 
@@ -33,11 +33,6 @@ const Sidebar = () => {
         <li>
           <NavIcon label='Lists'>
             <FontAwesomeIcon icon={faRectangleList} style={{ fontSize: 20 }} />
-          </NavIcon>
-        </li>
-        <li>
-          <NavIcon label='Bookmarks'>
-            <FontAwesomeIcon icon={faBookmark} style={{ fontSize: 20 }} />
           </NavIcon>
         </li>
         <li>
