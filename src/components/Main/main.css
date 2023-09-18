@@ -3,16 +3,15 @@
   align-items: stretch;
   width: 100%;
   height: 100%;
-  border: 1px solid red
 }
 
 .main .right {
-  border: 1px solid white;
+  border-right: 1px solid white;
   flex: 1;
   height: 100%
 }
 .main .left {
-  border: 1px solid white;
+  border-right: 1px solid white;
   flex: 1;
   height: 100%
 }
