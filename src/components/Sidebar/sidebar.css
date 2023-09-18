@@ -1,0 +1,14 @@
+.navbar ul {
+  font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar > .x-icon {
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.navbar > .x-icon:hover {
+  background-color: rgb(25, 25, 25);
+}

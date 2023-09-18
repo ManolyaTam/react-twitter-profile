@@ -1,0 +1,16 @@
+.nav-icon {
+  font-weight: 400;
+  border-radius: 30px;
+  padding: 13px 25px;
+  padding-left: 12px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.nav-icon > span {
+  margin-left: 20px
+}
+
+.nav-icon:hover {
+  background-color: rgb(25, 25, 25);
+}

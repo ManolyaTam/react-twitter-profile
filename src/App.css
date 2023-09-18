@@ -13,16 +13,17 @@ body {
 .App {
   display: flex;
   align-items: stretch;
+  justify-content: center;
   height: 100vh;
-  margin: 0 70px;
+  margin: 0 auto;
 }
 
 .App>header {
-  width: 270px;
-  border: 1px solid white;
+  width: 250px;
+  padding-top: 10px;
 }
 
 .App>main {
-  flex: 1;
+  width: 990px;
   border: 1px solid white;
 }
