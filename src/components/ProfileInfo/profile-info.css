@@ -1,0 +1,13 @@
+.profile-info .background-img {
+  width: 100%;
+  height: 200px;
+}
+.profile-info .profile-img {
+  width: 140px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  border: 4px solid black;
+  position: relative;
+  bottom: 75px;
+  left: 20px
+}
