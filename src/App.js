@@ -1,12 +1,15 @@
 import './App.css';
+import PageHeader from './components/PageHeader/page-header.component';
 import Sidebar from './components/Sidebar/sidebar.component';
 function App() {
   return (
     <div className="App">
-      <header>
+      <nav>
         <Sidebar />
-      </header>
-      <main>main</main>
+      </nav>
+      <main>
+        <PageHeader title='React' postsCount='2,607'/>
+      </main>
     </div>
   );
 }

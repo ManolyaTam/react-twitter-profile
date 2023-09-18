@@ -1,0 +1,26 @@
+.page-header {
+  display: flex;
+  align-items: center;
+}
+
+.page-header .back-arrow {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 100%;
+}
+.page-header .back-arrow:hover {
+  background-color: rgb(25, 25, 25);
+}
+
+
+.page-header .bottom,
+.page-header .bottom  p,
+.page-header .bottom  h3 {
+  margin: 0;
+}
+
+.page-header .bottom p {
+  font-size: 14px;
+  color: #71767b;
+}
+
