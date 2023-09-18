@@ -1,5 +1,5 @@
 import './App.css';
-import PageHeader from './components/PageHeader/page-header.component';
+import Main from './components/Main/main.component';
 import Sidebar from './components/Sidebar/sidebar.component';
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <Sidebar />
       </nav>
       <main>
-        <PageHeader title='React' postsCount='2,607'/>
+        <Main />
       </main>
     </div>
   );
