@@ -36,15 +36,18 @@
   font-size: 15px;
   display: inline-block;
   margin-right: 10px;
-  color: white !important;  
-  text-decoration: none;
+  color: white !important;
 }
 
 .mini-font {
   font-size: 15px;
 }
 
-.profile-details a.mini-font-detail:hover {
+.profile-details a {
+  text-decoration: none;
+}
+
+.profile-details a:hover {
   text-decoration: underline;
 }
 
