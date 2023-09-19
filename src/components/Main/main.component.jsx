@@ -3,6 +3,7 @@ import PageHeader from '../PageHeader/page-header.component';
 import ProfileInfo from '../ProfileInfo/profile-info.component';
 import Search from '../Search/search.component';
 import ProfileDetails from '../ProfileDetails/profile-details.component';
+import TabList from '../TabList/tab-list.component';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
           profileImg='https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png'
         />
         <ProfileDetails /> {/* ._." */}
+        <TabList />
       </div>
       <div className="right">
         <Search />
