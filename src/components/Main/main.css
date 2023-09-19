@@ -6,12 +6,13 @@
 }
 
 .main .right {
-  border-right: 1px solid white;
+  border-right: 1px solid #4b3e01;
   flex: 1;
   height: 100%
 }
+
 .main .left {
-  border-right: 1px solid white;
+  border-right: 1px solid #3a3a3a;
   flex: 1;
   height: 100%
 }

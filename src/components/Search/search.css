@@ -1,13 +1,14 @@
 .search {
   background-color: #202327;
   width: 350px;
-  height: 40px;
+  height: 45px;
   margin: 5px auto;
 
   padding: 10px;
   box-sizing: border-box;
   border-radius: 30px;
   display: flex;
+  align-items: center;
 }
 
 .search input[type="search"] {
@@ -22,5 +23,5 @@
 
 .search .search-magnifier {
   color: #afafaf;
-  margin-left: 10px;
+  margin-inline: 10px;
 }
