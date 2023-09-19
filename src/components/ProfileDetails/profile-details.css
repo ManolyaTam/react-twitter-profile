@@ -1,0 +1,53 @@
+.profile-details {
+  margin: 55px 16px 0;
+}
+
+.profile-details p {
+  margin: 7px 0;
+}
+
+.profile-details .handle,
+.profile-details h3 {
+  margin: 0;
+}
+
+.profile-details .handle {
+  font-size: 14px;
+  color: #71767b;
+}
+
+.profile-details .link a {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.profile-details .link a:visited {
+  color: #1d9bf0;
+}
+
+.profile-details .joining-date-p {
+  margin-left: 5px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.profile-details a.mini-font-detail {
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  color: white !important;  
+  text-decoration: none;
+}
+
+.mini-font {
+  font-size: 15px;
+}
+
+.profile-details a.mini-font-detail:hover {
+  text-decoration: underline;
+}
+
+.profile-details .grey {
+  color: #71767b;
+}
