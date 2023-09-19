@@ -1,9 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './nav-icon.css';
 
 const NavIcon = (props) => {
   return (
     <div className="nav-icon">
-      {props.children}
+      <FontAwesomeIcon className='x-icon' icon={props.icon} style={{ fontSize: 20 }} />
       <span style={{ fontSize: 20 }}>{props.label}</span>
     </div>
   );
