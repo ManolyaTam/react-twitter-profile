@@ -11,8 +11,8 @@ const Main = () => {
         <ProfileInfo
           bgImg='https://pbs.twimg.com/profile_banners/1566463268/1470764371/1500x500'
           profileImg='https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png'
-
         />
+        
       </div>
       <div className="right">
         <Search />

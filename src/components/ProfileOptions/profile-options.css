@@ -3,9 +3,6 @@
   align-items: center;
   justify-content: flex-end;
   margin-right: 15px;
-
-  position: relative;
-  bottom: 150px;
 }
 
 .profile-options .more {
