@@ -4,6 +4,7 @@ import ProfileInfo from '../ProfileInfo/profile-info.component';
 import Search from '../Search/search.component';
 import ProfileDetails from '../ProfileDetails/profile-details.component';
 import TabList from '../TabList/tab-list.component';
+import Gallery from '../Gallery/gallery.component';
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
       </div>
       <div className="right">
         <Search />
+        <Gallery/>
       </div>
     </div>
   );

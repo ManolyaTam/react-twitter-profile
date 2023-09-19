@@ -1,0 +1,15 @@
+.gallery {
+  display:flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 15px auto;
+}
+
+.gallery img {
+  margin: 1px;
+  width: 32.7%;
+  height: 50%;
+}
