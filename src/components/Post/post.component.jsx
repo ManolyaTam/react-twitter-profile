@@ -1,6 +1,7 @@
 import './post.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRetweet, faThumbTack } from '@fortawesome/free-solid-svg-icons';
+import PostBottom from '../PostBottom/post-bottom.component';
 
 const Post = (props) => {
   return (
@@ -16,6 +17,7 @@ const Post = (props) => {
           <p>{props.content}</p>
         </div>
       </div>
+      <PostBottom {...props.details}/>
     </div>
   );
 };

@@ -33,6 +33,7 @@ const Main = () => {
             content={post.content}
             publisher={post.publisher}
             profilePic={post.profilePic}
+            details={post.details}
           />
         )
         }

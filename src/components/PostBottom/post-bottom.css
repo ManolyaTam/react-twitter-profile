@@ -1,0 +1,10 @@
+.post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-betweens;
+  padding-top: 20px;
+}
+
+.post-bottom>span {
+  margin: 0 auto
+}
