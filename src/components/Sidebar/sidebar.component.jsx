@@ -1,21 +1,9 @@
 import './sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faBell, faEnvelope, faHouse, faMagnifyingGlass, faRectangleList, faUserGroup, faUser, faEllipsis, faBookmark } from '@fortawesome/free-solid-svg-icons';
 import PrimaryBtn from '../PrimaryBtn/primary-btn.component';
 import NavIcon from '../NavIcon/nav-icon.component';
-
-const icons = [
-  { title: 'Home', icon: faHouse },
-  { title: 'Explore', icon: faMagnifyingGlass },
-  { title: 'Notifications', icon: faBell },
-  { title: 'Messages', icon: faEnvelope },
-  { title: 'Lists', icon: faRectangleList },
-  { title: 'BookMarks', icon: faBookmark },
-  { title: 'Communities', icon: faUserGroup },
-  { title: 'Profile', icon: faUser },
-  { title: 'More', icon: faEllipsis },
-];
+import { icons } from '../../data/nav';
 
 const Sidebar = () => {
   return (
