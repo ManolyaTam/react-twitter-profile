@@ -7,7 +7,7 @@ import ProfileOptions from '../ProfileOptions/profile-options.component';
 import TabList from '../TabList/tab-list.component';
 import Gallery from '../Gallery/gallery.component';
 import Post from '../Post/post.component';
-
+import Board from '../Board/board.component';
 const posts = [
   {
     pinned: true,
@@ -59,6 +59,10 @@ const Main = () => {
       <div className="right">
         <Search />
         <Gallery />
+        <Board>
+          <h3 style={{fontSize: 20, margin: 0}}>You might like</h3>
+          {}
+        </Board>
       </div>
     </div>
   );
