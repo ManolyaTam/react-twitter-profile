@@ -5,8 +5,8 @@ const TabList = () => {
   return (
     <div className='tab-list'>
       {
-        list.map(item =>
-          <div className='tab'><p>{item}</p></div>
+        list.map((item, index) =>
+          <div className='tab' key={`profile-tab-${index}`}><p>{item}</p></div>
         )
       }
     </div>

@@ -22,7 +22,7 @@ const Sidebar = () => {
     <div className="navbar">
       <FontAwesomeIcon className='x-icon' icon={faXTwitter} size='2xl' />
       <ul>
-        {icons.map((item) => <NavIcon label={item.title} icon={item.icon} />)}
+        {icons.map((item, index) => <NavIcon key={`navicon-${index}`} label={item.title} icon={item.icon} />)}
       </ul>
 
       <PrimaryBtn />

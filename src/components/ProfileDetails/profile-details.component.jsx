@@ -8,7 +8,7 @@ const ProfileDetails = () => {
       <h3>React</h3>
       <p className='handle'>@reactjs</p><br />
       <p>The library for web and native user interfaces</p>
-      <p className='link'>
+      <div className='link'>
         <FontAwesomeIcon className='grey' icon={faLink} />
         <a href="https://react.dev/" target='_blank' rel='noreferrer'>react.dev</a>
         <FontAwesomeIcon className='grey' icon={faCalendarDays} />
@@ -30,7 +30,7 @@ const ProfileDetails = () => {
           710K <span className='grey'>Followers</span>
         </a>
         <p className='grey mini-font'>Not followed by anyone you’re following</p>
-      </p>
+      </div>
     </div>
   );
 };
