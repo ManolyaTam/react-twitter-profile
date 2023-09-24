@@ -9,7 +9,8 @@ import Gallery from '../Gallery/gallery.component';
 import Post from '../Post/post.component';
 import Board from '../Board/board.component';
 import { posts } from '../../data/posts';
-
+import { recProfiles } from '../../data/recommended-profiles';
+import MiniProfile from '../MiniProfile/mini-profile.component';
 const Main = () => {
   return (
     <div className="main">
@@ -41,7 +42,13 @@ const Main = () => {
         <Gallery />
         <Board>
           <h3 style={{ fontSize: 20, margin: 0 }}>You might like</h3>
-          { }
+          {recProfiles.map((profile, index) =>
+            <MiniProfile
+              key={`mini-profile-recommended-${index}`}
+              img={profile.img}
+              handel={profile.handel}
+              title={profile.title}
+            />)}
         </Board>
       </div>
     </div>

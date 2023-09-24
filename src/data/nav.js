@@ -6,7 +6,7 @@ export const icons = [
   { title: 'Notifications', icon: faBell },
   { title: 'Messages', icon: faEnvelope },
   { title: 'Lists', icon: faRectangleList },
-  { title: 'BookMarks', icon: faBookmark },
+  { title: 'Bookmarks', icon: faBookmark },
   { title: 'Communities', icon: faUserGroup },
   { title: 'Profile', icon: faUser },
   { title: 'More', icon: faEllipsis },

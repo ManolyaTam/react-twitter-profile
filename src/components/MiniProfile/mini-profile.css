@@ -1,0 +1,22 @@
+.mini-profile {
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.mini-profile .title-and-handel p {
+  margin: 0 10px;
+}
+
+.mini-profile:hover {
+  background-color: #1d1f23;
+}
+
+.mini-profile .mini-profile-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
