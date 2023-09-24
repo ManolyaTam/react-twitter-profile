@@ -5,8 +5,8 @@ import { faRetweet, faThumbTack } from '@fortawesome/free-solid-svg-icons';
 const Post = (props) => {
   return (
     <div className="post">
-      {props.pinned && <p className='grey mini-font post-mini-detail'><FontAwesomeIcon icon={faThumbTack} /> pinned</p>}
-      {props.reposted && <p className='grey mini-font post-mini-detail'><FontAwesomeIcon icon={faRetweet} />reposted</p>}
+      {props.pinned && <p className='grey mini-font post-mini-detail'><FontAwesomeIcon icon={faThumbTack} />&nbsp;pinned</p>}
+      {props.reposted && <p className='grey mini-font post-mini-detail'><FontAwesomeIcon icon={faRetweet} />&nbsp;reposted</p>}
       <div className='post-flexbox'>
         <div className="profile-pic-div">
           <img className="profile-pic" src={props.profilePic} alt="" />
