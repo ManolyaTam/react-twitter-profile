@@ -1,0 +1,38 @@
+.post {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.post p,
+.post h4 {
+  margin: 0;
+}
+
+.post h4 {
+  display: inline-block;
+}
+
+.post .post-mini-detail {
+  margin-left: 30px;
+  margin-bottom: 7px;
+}
+
+.post .post-flexbox {
+  display: flex;
+}
+
+.post .post-flexbox .profile-pic-div {
+  max-width: fit-content;
+  margin-left: 10px
+}
+
+.post .post-flexbox .post-content {
+  padding-right: 20px
+}
+
+.post .profile-pic {
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  margin-right: 12px
+}
